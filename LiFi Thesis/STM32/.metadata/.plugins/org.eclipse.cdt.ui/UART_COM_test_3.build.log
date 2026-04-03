@@ -1,0 +1,10 @@
+12:30:49 **** Incremental Build of configuration Debug for project UART_COM_test_3 ****
+make -j10 all 
+arm-none-eabi-size  UART_COM_test_3.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9584	     12	   1708	  11304	   2c28	UART_COM_test_3.elf
+Finished building: default.size.stdout
+ 
+
+12:30:49 Build Finished. 0 errors, 0 warnings. (took 196ms)
+

@@ -1,0 +1,87 @@
+2025-05-21 07:21:02,014 [INFO] Activator:176 - 
+
+
+2025-05-21 07:21:02,018 [INFO] Activator:177 - !SESSION log4j initialized
+2025-05-21 07:21:05,521 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-05-21 07:21:08,705 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-05-21 07:21:11,256 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-05-21 07:21:12,287 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 38: file:/Users/himadri_joy/Desktop/master thesis/VLC Thesis /STM32/.metadata/.log4j2.xml
+2025-05-21 07:21:12,290 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+2025-05-21 07:21:12,290 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+2025-05-21 07:21:12,290 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+2025-05-21 07:21:12,290 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+2025-05-21 07:21:12,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:645)
+2025-05-21 07:21:12,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1220)
+2025-05-21 07:21:12,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2025-05-21 07:21:12,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2025-05-21 07:21:12,293 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2025-05-21 07:21:12,294 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2025-05-21 07:21:12,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+2025-05-21 07:21:12,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2025-05-21 07:21:12,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2025-05-21 07:21:12,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2025-05-21 07:21:12,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+2025-05-21 07:21:12,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-21 07:21:12,407 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-05-21 07:21:12,420 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//mcu/
+2025-05-21 07:21:12,420 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/boardmanager/
+2025-05-21 07:21:12,420 [WARN] ApiDb:259 - Overriding images path with different value:  => /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/mcufinder/images/
+2025-05-21 07:21:12,428 [INFO] ApiDb:250 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-05-21 07:21:12,428 [INFO] DbMcusAds:125 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-05-21 07:21:12,429 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/cs/
+2025-05-21 07:21:12,539 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-05-21 07:21:12,605 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//mcu/
+2025-05-21 07:21:12,605 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/boardmanager/
+2025-05-21 07:21:12,605 [INFO] ApiDb:261 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/mcufinder/images/
+2025-05-21 07:21:12,605 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:12,605 [INFO] ApiDb:250 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-05-21 07:21:12,605 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:12,605 [INFO] DbMcusAds:125 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-05-21 07:21:12,605 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:12,605 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:12,605 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/cs/
+2025-05-21 07:21:12,667 [INFO] MainPanel:272 - HeapMemory: 268435456
+2025-05-21 07:21:15,740 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//mcu/
+2025-05-21 07:21:15,741 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/boardmanager/
+2025-05-21 07:21:15,741 [INFO] ApiDb:261 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/mcufinder/images/
+2025-05-21 07:21:15,742 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:15,742 [INFO] ApiDb:250 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-05-21 07:21:15,742 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:15,742 [INFO] DbMcusAds:125 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-05-21 07:21:15,742 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:15,742 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-05-21 07:21:15,743 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/cs/
+2025-05-21 07:21:15,768 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-05-21 07:21:15,770 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-05-21 07:21:15,786 [INFO] PluginManage:310 - Check plugin analytics
+2025-05-21 07:21:16,069 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2025-05-21 07:21:16,070 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2025-05-21 07:21:16,070 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: 
+2025-05-21 07:21:16,082 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2025-05-21 07:21:16,083 [INFO] PluginManage:310 - Check plugin cadmodel
+2025-05-21 07:21:16,109 [INFO] CADModel:105 - Init CAD model plugin
+2025-05-21 07:21:16,109 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2025-05-21 07:21:16,110 [INFO] PluginManage:310 - Check plugin clock
+2025-05-21 07:21:16,118 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2025-05-21 07:21:16,118 [INFO] PluginManage:310 - Check plugin ddr
+2025-05-21 07:21:16,120 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2025-05-21 07:21:16,120 [INFO] PluginManage:310 - Check plugin filemanager
+2025-05-21 07:21:16,275 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2025-05-21 07:21:16,275 [INFO] PluginManage:310 - Check plugin ipmanager
+2025-05-21 07:21:16,282 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2025-05-21 07:21:16,282 [INFO] PluginManage:310 - Check plugin lpbam
+2025-05-21 07:21:16,288 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2025-05-21 07:21:16,289 [INFO] PluginManage:310 - Check plugin memorymap
+2025-05-21 07:21:16,297 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2025-05-21 07:21:16,297 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2025-05-21 07:21:16,304 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2025-05-21 07:21:16,304 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2025-05-21 07:21:16,366 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2025-05-21 07:21:16,466 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2025-05-21 07:21:16,466 [INFO] PluginManage:310 - Check plugin power
+2025-05-21 07:21:16,472 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2025-05-21 07:21:16,472 [INFO] PluginManage:310 - Check plugin projectmanager
+2025-05-21 07:21:16,489 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:4)
+2025-05-21 07:21:16,489 [INFO] PluginManage:310 - Check plugin rif
+2025-05-21 07:21:16,493 [INFO] PluginManage:359 - Loaded plugin rif (category:base,tabindex:3)
+2025-05-21 07:21:16,493 [INFO] PluginManage:310 - Check plugin thirdparty

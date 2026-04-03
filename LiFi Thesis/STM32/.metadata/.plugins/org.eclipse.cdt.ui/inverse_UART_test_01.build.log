@@ -1,0 +1,10 @@
+19:22:29 **** Incremental Build of configuration Debug for project inverse_UART_test_01 ****
+make -j10 all 
+arm-none-eabi-size  inverse_UART_test_01.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16008	     16	   1992	  18016	   4660	inverse_UART_test_01.elf
+Finished building: default.size.stdout
+ 
+
+19:22:30 Build Finished. 0 errors, 0 warnings. (took 151ms)
+

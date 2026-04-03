@@ -1,0 +1,171 @@
+\documentclass[11pt,a4paper,openright,numbers=noenddot]{scrbook}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm, top=2cm, right=2cm, bottom=2cm, bindingoffset=1cm, includeheadfoot, twoside]{geometry}
+\usepackage[font=footnotesize, textfont=footnotesize, labelfont={footnotesize,bf}]{caption}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{titling}
+\usepackage{tocloft}
+\usepackage{acronym}
+\usepackage{icomma}
+\usepackage{subcaption}
+\usepackage{lipsum}
+
+%%% language settings and alternative command
+\usepackage{etoolbox}
+\newcommand{\altGerEng}[2]{%
+  \iflanguage{ngerman}{#1}{#2}%
+}
+
+\definecolor{TUHHdarkblue}{RGB}{0,0,153}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\bibliographystyle{unsrt}
+\newcounter{frontmatter}
+\fancypagestyle{full}{
+	\fancyhf{}
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter\space{##1}}{}}
+	\fancyhead[LE,RO]{\slshape\leftmark}
+	\fancyfoot[LE,RO]{\slshape\thepage}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0.4pt}
+}
+\fancypagestyle{front}{
+	\pagestyle{full}
+	\renewcommand{\chaptermark}[1]{\markboth{##1}{}}
+}
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\fancyfoot[LE,RO]{\slshape\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0.4pt}
+}
+\raggedbottom
+
+
+
+% INPUT of personal data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[english]{babel} % ngerman (neue Rechtschreibung) *or* english
+\author{Himadri Joy Bepari}
+\title{Development and Evaluation of an Energy-efficient LiFi-Receiver with Energy Harvesting Capability}
+\renewcommand{\year}{2025}
+\newcommand{\monthname}{June}
+\newcommand{\degree}{Master's} % Bachelor('s)/Master('s)/Proje(k/c)t
+\newcommand{\type}{Science}         
+\newcommand{\bornin}{Pirojpur}
+\newcommand{\faculty}{Smart Sensors}
+\newcommand{\university}{Technische Universität Hamburg}
+\newcommand{\fstReviewer}{Prof. Dr.-Ing. Ulf Kulau}
+\newcommand{\sndReviewer}{Prof. Dr.-Ing. Sohan Lal}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hypersetup{pdftitle={\thetitle},pdfauthor={\theauthor},pdfsubject={\degree arbeit}}
+\begin{document}
+	\frontmatter
+	%%% TITLE PAGE
+	\pdfbookmark{Titlepage}{Titlepage}
+	\begin{titlepage}
+		\includegraphics[height=2.0cm]{fig/office_rgb_\altGerEng{de}{en}}\hfill
+		\includegraphics[height=2.0cm]{fig/logo_sensors.png}\vfill
+		\begin{center}
+			{\Huge\color{TUHHdarkblue}\textbf{\thetitle}\par}
+
+			\vfill
+			{\Large{\degree}\altGerEng{arbeit}{ Thesis} }
+
+			\vfill
+			\altGerEng{eingereicht von}{submitted by} \\[5pt]
+			{\Large\theauthor} \\[5pt]
+			\altGerEng{geboren in}{born in} \bornin\par
+
+			\vfill
+			{\Large\faculty\\\university\\[20pt]\monthname\space\year}
+		\end{center}
+		\vfill\noindent
+		1. \altGerEng{Gutachter}{Reviewer} : \fstReviewer \\
+		2. \altGerEng{Gutacther}{Reviewer} : \sndReviewer
+	\end{titlepage}
+	\cleardoubleemptypage
+
+	%%% AFFIDAVIT
+	\pagestyle{plain}
+	\altGerEng{
+	\chapter*{Eidesstattliche Erklärung}\addcontentsline{toc}{chapter}{Erklärung}
+	Ich versichere hiermit an Eides statt, dass ich die vorliegende \degree arbeit mit dem
+	Titel ,,\thetitle'' selbständig und ohne unzulässige fremde Hilfe erbracht habe. Ich habe keine
+	anderen als die angegebenen Quellen und Hilfsmittel benutzt sowie wörtliche und sinngemäße Zitate kenntlich gemacht. Die Arbeit hat in gleicher oder ähnlicher Form noch
+	keiner Prüfungsbehörde vorgelegen.
+
+
+	\vspace{2cm}\noindent
+	\begin{tabular}{p{5cm}}
+		\hspace{-5pt}Hamburg, \today \\\hline
+		\hspace{-5pt}\small Ort, Datum
+	\end{tabular}
+	\hfill
+	\begin{tabular}{p{5cm}}
+		\\\hline
+		\hspace{-5pt}\small\theauthor
+	\end{tabular}
+	}
+	{
+	\chapter*{Affidavit}\addcontentsline{toc}{chapter}{Declaration}
+	I hereby declare in lieu of an oath that I have produced this \degree{} Thesis with the title of
+	title ,,\thetitle'' independently and without unauthorized outside help.
+	I have not used any sources or aids other than those indicated, and I have marked any quotations, either verbatim or in spirit.
+	The work has not been submitted in the same or a similar form to any examination authority.
+
+	\vspace{2cm}\noindent
+	\begin{tabular}{p{5cm}}
+		\hspace{-5pt}Hamburg, \today \\\hline
+		\hspace{-5pt}\small Place, Date
+	\end{tabular}
+	\hfill
+	\begin{tabular}{p{5cm}}
+		\\\hline
+		\hspace{-5pt}\small\theauthor
+	\end{tabular}
+	}
+
+	%%% ABSTRACT
+	\include{sec/abstract}\cleardoubleemptypage
+
+	%%% TOC + LISTINGS
+	\pdfbookmark{\contentsname}{\contentsname}
+	\pagestyle{front}
+	\tableofcontents\cleardoubleemptypage
+	\phantomsection\listoffigures\addcontentsline{toc}{chapter}{\listfigurename}\cleardoubleemptypage
+	\phantomsection\listoftables\addcontentsline{toc}{chapter}{\listtablename}\cleardoubleemptypage
+
+	%%% ACRONYMS
+	\include{sec/acro}
+	\setcounter{frontmatter}{\value{page}}
+
+	%%% CHAPTERS
+	\mainmatter
+	\pagestyle{full}
+	\include{sec/introduction}
+        \include{sec/relatedwork}
+	\include{sec/fundamentals}
+	\include{sec/implementation}
+	\include{sec/evaluation}
+        \include{sec/future}
+	\include{sec/conclusion}
+
+	%%% APPENDIX
+	\begin{appendix}
+		\pagenumbering{roman}
+		\setcounter{page}{\value{frontmatter}}
+		\input{sec/appendix}
+	\end{appendix}
+
+	%%% REFERENCES
+	\backmatter
+	\bibliography{references}\addcontentsline{toc}{chapter}{\bibname}
+\end{document}

@@ -1,0 +1,53 @@
+\chapter{\altGerEng{Einleitung}{Introduction}}
+
+\ac{Li-Fi} is a new and alternative method for wireless communication, also known as \ac{VLC}. It is a short-range optical communication that can act as both illumination and data communication, and is considered a future green technology \cite{7420990} \cite{7292748}. \ac{VLC} is recognized as a strong candidate for effectively solving the significant spectrum scarcity in 6G telecommunication networks \cite{ding2024performance}.
+
+In LED-based \ac{VLC} systems, LEDs serve as optical sources, transforming the electrical signal into a modulated optical signal. At the receiver, photodetectors convert the optical power back into electrical current for signal processing \cite{fuada2016trans}.
+
+\ac{VLC} has gained significant attention recently due to its free licensing and ability to minimize electromagnetic interference. This makes it suitable for deployment in areas where radio frequencies are prohibited, such as airplanes, hospitals, and power plants. Additionally, \ac{VLC} is highly directional and utilizes the visible spectrum of electromagnetic waves (380nm to 780nm), which is a much bigger spectrum and less crowded than other frequency bands \cite{liu2016visible}.
+
+Wireless microsystems hold significant potential for various applications, including implantable biomedical sensors, neurostimulators, and retinal prostheses. Each of these critical applications has size constraints, making the use of large batteries impractical, as they limit the overall size and reduce the lifespan of the devices \cite{haydaroglu2014optical} \cite{7292748}.
+
+These \ac{WSNs} are part of mobile networks, for example, Outer-Space communication in Satelite or Underwater communication in Environmental Parameter Sensors \cite{de2024reconfigurable}\cite{7292748}. These mobile terminals face challenges in delivering consistent communication performance over extended periods due to their limited battery capacity \cite{ding2024performance}\cite{tudose2011energy}. So, prolonging the lifetime of power-constrained systems through \ac{EH} makes general sense. \ac{EH} is the process of capturing energy from the environment or other sources and converting it into electrical energy. \ac{EH} extends the lifespan of energy-constrained wireless networks and offers a promising solution for ensuring the energy sustainability of wireless modules \cite{diamantoulakis2018simultaneous}.
+
+However, the main disadvantage of traditional \ac{EH} is that it relies on uncontrollable natural resources, such as solar and wind. For this reason, \ac{EH} from sources that intentionally generate an electromagnetic field, such as a Light source or transmitter of a \ac{VLC}, seems to be a viable alternative \cite{diamantoulakis2018simultaneous}.
+
+
+\subsection{Motivation}
+ 
+
+The first motivating point for research and development of the \ac{VLC} system is its Data rates. The data rates of indoor \ac{VLC} networking can be significantly higher than WiFi, especially when the transmitter and receiver are nearby \cite{mossaad2015visible}. In addition to the extremely high data rates, \ac{OWC} technologies offer several advantages, such as: i) an increase in available bandwidth, ii) easy bandwidth reuse, iii) an increase in energy efficiency and considerable energy savings, iv) no \ac{RF} contamination, and v) free from
+\ac{RF} interference. 
+
+Additionally, LEDs, photodetectors, and their driver circuit are cost-efficient, making the \ac{VLC} system more efficient than the \ac{RF} system. Moreover, LEDs are already used for lighting in indoor areas (and outside) and can also be used for communication. This potential use of the existing lighting infrastructure further enhances this cost-effectiveness\cite{mossaad2015visible} \cite{kavehrad2010sustainable}. 
+
+However, the \ac{VLC}s rely heavily on wireless light communication, making them power hungry and limiting the applications of these devices due to their finite battery capacity. Sometimes, these sensors are part of an intricate complex system, and accessibility to any inner part is difficult. Moreover, there can be multiple sensors in a connected network. So changing each of their batteries will pose a difficult effort, costing money \cite{diamantoulakis2018simultaneous}.
+
+
+To address the battery capacity issue, it is recommended that an \ac{EH} module be implemented and integrated with a \ac{VLC} system. One effective methodology to consider is the \ac{SLIPT} in \ac{VLC} systems, first proposed in the literature \cite{diamantoulakis2018simultaneous}. This system is appealing because it can simultaneously provide illumination, information transfer, and \ac{EH}. The receiver can harvest energy from the light waves, extending the battery life. Moreover, as its \ac{EH}s do not depend on ambient sources, its ability to achieve Energy is well confirmed.
+
+However, the theoretical exploration of \ac{SLIPT} technology is still in its early stages. Specifically, practical strategies to enhance efficiency and an optimization framework that balances the trade-off between the energy harvested and communication performance are needed. This dual-purpose use of light differs fundamentally from \ac{RF} signals due to variations in channel characteristics, transmission and reception devices, and the \ac{EH} model \cite{diamantoulakis2018simultaneous}.
+
+More research is still needed to cover both the transmitter and receiver for the \ac{VLC} system design so that the receiver can harvest energy from the light waves, thereby extending the battery life and decoding the information sent by the transmitter.
+
+
+
+\subsection{\altGerEng{Ziele der Arbeit}{Goals of the Thesis}}
+
+Multiple ways can be taken to solve the \ac{VLC} system's limited power or battery capacity problem and provide better Data communication. This is why one of the main goals of the thesis work is to determine the best possible solution for efficient data reception and decoding while harvesting energy from the same light signal.
+
+To better understand, the summation of the goals of the Thesis is presented:
+\begin{itemize}
+    \item Investigate related work.
+    \item Discussion of the fundamentals.
+    \item Comparison of methodologies, circuit networks, and Components.
+    \item Design of the \ac{VLC} transmitter, which transmits data and energy through the visible light signal.
+    \item Design and evaluation of \ac{EH} Module at the receiver.
+    \item Design and evaluation of the \ac{ID} Module at the receiver.
+    \item Investigate the data transmission of multi-LED \ac{SLIPT} \ac{VLC} networks
+    \item Effect of variables such as Charging Phase, Speed, and distance on the system. 
+    \item Future work and probable improvements.
+    
+\end{itemize}
+
+In summary, this energy supply issue will be tackled, and the power transfer potential of \ac{VLC} will be explored with simultaneous data communication and light-energy-harvesting-enabled \ac{VLC} systems.

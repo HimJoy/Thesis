@@ -1,0 +1,312 @@
+2025-04-27 21:18:29,771 [INFO] Activator:176 - 
+
+
+2025-04-27 21:18:29,772 [INFO] Activator:177 - !SESSION log4j initialized
+2025-04-27 21:18:32,897 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-04-27 21:18:35,720 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-04-27 21:18:36,688 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 38: file:/Users/himadri_joy/Desktop/master thesis/VLC Thesis /STM32/.metadata/.log4j2.xml
+2025-04-27 21:18:36,689 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+2025-04-27 21:18:36,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+2025-04-27 21:18:36,694 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+2025-04-27 21:18:36,702 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+2025-04-27 21:18:36,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:645)
+2025-04-27 21:18:36,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1220)
+2025-04-27 21:18:36,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2025-04-27 21:18:36,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2025-04-27 21:18:36,710 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2025-04-27 21:18:36,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2025-04-27 21:18:36,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+2025-04-27 21:18:36,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2025-04-27 21:18:36,713 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2025-04-27 21:18:36,713 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2025-04-27 21:18:36,713 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+2025-04-27 21:18:36,713 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-04-27 21:18:46,174 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-04-27 21:18:46,176 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-04-27 21:18:46,176 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-04-27 21:18:46,176 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-04-27 21:18:46,176 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-04-27 21:24:11,177 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-04-27 21:39:41,503 [INFO] Activator:176 - 
+
+
+2025-04-27 21:39:41,504 [INFO] Activator:177 - !SESSION log4j initialized
+2025-04-27 21:39:43,130 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-04-27 21:39:46,003 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-04-27 21:39:47,911 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-04-27 21:39:48,560 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 38: file:/Users/himadri_joy/Desktop/master thesis/VLC Thesis /STM32/.metadata/.log4j2.xml
+2025-04-27 21:39:48,560 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+2025-04-27 21:39:48,561 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+2025-04-27 21:39:48,562 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+2025-04-27 21:39:48,562 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+2025-04-27 21:39:48,564 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:645)
+2025-04-27 21:39:48,565 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1220)
+2025-04-27 21:39:48,565 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2025-04-27 21:39:48,565 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+2025-04-27 21:39:48,566 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+2025-04-27 21:39:48,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+2025-04-27 21:39:48,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+2025-04-27 21:39:48,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+2025-04-27 21:39:48,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+2025-04-27 21:39:48,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+2025-04-27 21:39:48,567 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+2025-04-27 21:39:48,568 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-04-27 21:39:48,654 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-04-27 21:39:48,665 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//mcu/
+2025-04-27 21:39:48,665 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/boardmanager/
+2025-04-27 21:39:48,666 [WARN] ApiDb:259 - Overriding images path with different value:  => /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/mcufinder/images/
+2025-04-27 21:39:48,670 [INFO] ApiDb:250 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-04-27 21:39:48,670 [INFO] DbMcusAds:125 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-04-27 21:39:48,672 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/cs/
+2025-04-27 21:39:48,778 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-04-27 21:39:48,841 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//mcu/
+2025-04-27 21:39:48,841 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/boardmanager/
+2025-04-27 21:39:48,841 [INFO] ApiDb:261 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/mcufinder/images/
+2025-04-27 21:39:48,841 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:48,841 [INFO] ApiDb:250 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-04-27 21:39:48,842 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:48,842 [INFO] DbMcusAds:125 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-04-27 21:39:48,842 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:48,842 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:48,842 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/cs/
+2025-04-27 21:39:48,898 [INFO] MainPanel:272 - HeapMemory: 268435456
+2025-04-27 21:39:49,399 [INFO] DbMcusXml:78 - Set database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//mcu/
+2025-04-27 21:39:49,401 [INFO] ApiDb:274 - Set plugin database path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/boardmanager/
+2025-04-27 21:39:49,405 [INFO] ApiDb:261 - Set plugin images path to: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db//plugins/mcufinder/images/
+2025-04-27 21:39:49,405 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:49,405 [INFO] ApiDb:250 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-04-27 21:39:49,405 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:49,406 [INFO] DbMcusAds:125 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/
+2025-04-27 21:39:49,406 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:49,406 [WARN] DbFile:41 - Overriding database path with different value: /Users/himadri_joy/.stmcufinder/plugins/mcufinder/ => /Users/himadri_joy/.stmcufinder/plugins/mcufinder
+2025-04-27 21:39:49,406 [INFO] CrossReferenceDbSqlite:203 - Set database path to: /Users/himadri_joy/.stmcufinder/plugins/mcufinder//mcu/cs/
+2025-04-27 21:39:49,458 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-04-27 21:39:49,460 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-04-27 21:39:49,463 [INFO] PluginManage:310 - Check plugin analytics
+2025-04-27 21:39:49,762 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2025-04-27 21:39:49,763 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2025-04-27 21:39:49,763 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: 
+2025-04-27 21:39:49,777 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2025-04-27 21:39:49,780 [INFO] PluginManage:310 - Check plugin cadmodel
+2025-04-27 21:39:49,795 [INFO] CADModel:105 - Init CAD model plugin
+2025-04-27 21:39:49,795 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2025-04-27 21:39:49,795 [INFO] PluginManage:310 - Check plugin clock
+2025-04-27 21:39:49,803 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2025-04-27 21:39:49,803 [INFO] PluginManage:310 - Check plugin ddr
+2025-04-27 21:39:49,805 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2025-04-27 21:39:49,805 [INFO] PluginManage:310 - Check plugin filemanager
+2025-04-27 21:39:49,938 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2025-04-27 21:39:49,939 [INFO] PluginManage:310 - Check plugin ipmanager
+2025-04-27 21:39:49,944 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2025-04-27 21:39:49,945 [INFO] PluginManage:310 - Check plugin lpbam
+2025-04-27 21:39:49,951 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2025-04-27 21:39:49,951 [INFO] PluginManage:310 - Check plugin memorymap
+2025-04-27 21:39:49,960 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2025-04-27 21:39:49,960 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2025-04-27 21:39:49,965 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2025-04-27 21:39:49,965 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2025-04-27 21:39:50,034 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2025-04-27 21:39:50,167 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2025-04-27 21:39:50,167 [INFO] PluginManage:310 - Check plugin power
+2025-04-27 21:39:50,180 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2025-04-27 21:39:50,180 [INFO] PluginManage:310 - Check plugin projectmanager
+2025-04-27 21:39:50,210 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:4)
+2025-04-27 21:39:50,210 [INFO] PluginManage:310 - Check plugin rif
+2025-04-27 21:39:50,215 [INFO] PluginManage:359 - Loaded plugin rif (category:base,tabindex:3)
+2025-04-27 21:39:50,215 [INFO] PluginManage:310 - Check plugin thirdparty
+2025-04-27 21:39:50,342 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2025-04-27 21:39:50,342 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2025-04-27 21:39:50,343 [INFO] PluginManage:310 - Check plugin tools
+2025-04-27 21:39:50,343 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2025-04-27 21:39:50,344 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2025-04-27 21:39:50,345 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2025-04-27 21:39:50,345 [INFO] PluginManage:310 - Check plugin tutovideos
+2025-04-27 21:39:50,479 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2025-04-27 21:39:50,479 [INFO] PluginManage:310 - Check plugin updater
+2025-04-27 21:39:50,501 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2025-04-27 21:39:50,501 [INFO] PluginManage:310 - Check plugin userauth
+2025-04-27 21:39:50,505 [INFO] UserAuth:118 - Init User Auth plugin
+2025-04-27 21:39:50,506 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2025-04-27 21:39:50,507 [INFO] PluginManage:283 - PluginManage : Loaded plugins [18]
+2025-04-27 21:39:50,698 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-04-27 21:39:50,763 [INFO] CADModel:165 - CPN selected for project level
+2025-04-27 21:39:50,763 [INFO] CADModel:114 - Register for checkConnection events
+2025-04-27 21:39:50,772 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,772 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2025-04-27 21:39:50,776 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,776 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2025-04-27 21:39:50,779 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,779 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2025-04-27 21:39:50,785 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,786 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2025-04-27 21:39:50,787 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,788 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2025-04-27 21:39:50,789 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,789 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2025-04-27 21:39:50,790 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,790 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2025-04-27 21:39:50,791 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,791 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2025-04-27 21:39:50,793 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,793 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2025-04-27 21:39:50,794 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,795 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2025-04-27 21:39:50,795 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,795 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2025-04-27 21:39:50,797 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,797 [INFO] PluginManager:220 - loadIPPluginJar : add extmemmanager
+2025-04-27 21:39:50,798 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,798 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2025-04-27 21:39:50,799 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,800 [INFO] PluginManager:220 - loadIPPluginJar : add radio
+2025-04-27 21:39:50,801 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,801 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2025-04-27 21:39:50,802 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,802 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2025-04-27 21:39:50,803 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,803 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2025-04-27 21:39:50,804 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,805 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2025-04-27 21:39:50,806 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,806 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2025-04-27 21:39:50,807 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,807 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2025-04-27 21:39:50,808 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,808 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2025-04-27 21:39:50,810 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,811 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2025-04-27 21:39:50,812 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,812 [INFO] PluginManager:220 - loadIPPluginJar : add ddr_ctrl_phy
+2025-04-27 21:39:50,813 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,814 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2025-04-27 21:39:50,815 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,815 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2025-04-27 21:39:50,816 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,817 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2025-04-27 21:39:50,820 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,820 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2025-04-27 21:39:50,824 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,826 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2025-04-27 21:39:50,827 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,828 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2025-04-27 21:39:50,829 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,830 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2025-04-27 21:39:50,831 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,831 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2025-04-27 21:39:50,834 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,834 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2025-04-27 21:39:50,835 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,835 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2025-04-27 21:39:50,839 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,840 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2025-04-27 21:39:50,843 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,843 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2025-04-27 21:39:50,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,846 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2025-04-27 21:39:50,847 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,847 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2025-04-27 21:39:50,848 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,848 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2025-04-27 21:39:50,849 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,849 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2025-04-27 21:39:50,851 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,851 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2025-04-27 21:39:50,852 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,852 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2025-04-27 21:39:50,854 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,854 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2025-04-27 21:39:50,855 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,855 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2025-04-27 21:39:50,856 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,857 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2025-04-27 21:39:50,858 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,858 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2025-04-27 21:39:50,859 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-27 21:39:50,859 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2025-04-27 21:39:50,962 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,010 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-04-27 21:39:51,020 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-04-27 21:39:51,030 [INFO] CADModel:165 - CPN selected for project level
+2025-04-27 21:39:51,030 [INFO] CADModel:114 - Register for checkConnection events
+2025-04-27 21:39:51,030 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,030 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-04-27 21:39:51,248 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,249 [INFO] CADModel:165 - CPN selected for project level
+2025-04-27 21:39:51,249 [INFO] CADModel:114 - Register for checkConnection events
+2025-04-27 21:39:51,250 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,250 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-04-27 21:39:51,253 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,412 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,417 [INFO] DbMcusAds:53 - JSON generation date=Thu Mar 06 15:54:22 CET 2025 (1741272862204)
+2025-04-27 21:39:51,417 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,475 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-04-27 21:39:51,482 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2025-04-27 21:39:51,486 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.net.URISyntaxException: Illegal character in path at index 38: file:/Users/himadri_joy/Desktop/master thesis/VLC Thesis /STM32/.metadata/.log4j2.xml
+2025-04-27 21:39:51,486 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.fail(URI.java:2995)
+2025-04-27 21:39:51,487 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.checkChars(URI.java:3166)
+2025-04-27 21:39:51,487 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3248)
+2025-04-27 21:39:51,487 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI$Parser.parse(URI.java:3196)
+2025-04-27 21:39:51,487 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URI.<init>(URI.java:645)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.net.URL.toURI(URL.java:1220)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:81)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.mx.targetselector.TargetSelectorAdapter.addTargetSelector(TargetSelectorAdapter.java:170)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.common.projectcreation.ui.wizard.TargetSetupPageAbstract.createControl(TargetSetupPageAbstract.java:131)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.wizard.Wizard.createPageControls(Wizard.java:180)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.wizard.WizardDialog.createPageControls(WizardDialog.java:744)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.wizard.WizardDialog.createContents(WizardDialog.java:637)
+2025-04-27 21:39:51,488 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.create(Window.java:431)
+2025-04-27 21:39:51,489 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1092)
+2025-04-27 21:39:51,489 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.jface.window.Window.open(Window.java:788)
+2025-04-27 21:39:51,489 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.stm32cube.ide.mcu.informationcenter.WelcomePageAction.run(WelcomePageAction.java:54)
+2025-04-27 21:39:51,490 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.intro.impl.model.url.IntroURL.runAction(IntroURL.java:272)
+2025-04-27 21:39:51,490 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.intro.impl.model.url.IntroURL.doExecute(IntroURL.java:187)
+2025-04-27 21:39:51,490 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.intro.impl.model.url.IntroURL.lambda$0(IntroURL.java:142)
+2025-04-27 21:39:51,491 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+2025-04-27 21:39:51,491 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.intro.impl.model.url.IntroURL.execute(IntroURL.java:142)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.intro.impl.presentations.BrowserIntroPartLocationListener.changing(BrowserIntroPartLocationListener.java:130)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.browser.WebKit.webView_decidePolicyForNavigationAction_request_frame_decisionListener(WebKit.java:1498)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.browser.WebKit.browserProc(WebKit.java:418)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2372)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
+2025-04-27 21:39:51,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
+2025-04-27 21:39:51,493 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+2025-04-27 21:39:51,493 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
+2025-04-27 21:39:51,493 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
+2025-04-27 21:39:51,493 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+2025-04-27 21:39:51,493 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+2025-04-27 21:39:51,493 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
+2025-04-27 21:39:51,494 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+2025-04-27 21:39:51,494 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+2025-04-27 21:39:51,494 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+2025-04-27 21:39:51,495 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+2025-04-27 21:39:51,495 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+2025-04-27 21:39:51,495 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+2025-04-27 21:39:51,495 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+2025-04-27 21:39:51,495 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+2025-04-27 21:39:51,496 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+2025-04-27 21:39:51,496 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+2025-04-27 21:39:51,496 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+2025-04-27 21:39:51,496 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+2025-04-27 21:39:51,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+2025-04-27 21:39:51,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+2025-04-27 21:39:51,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+2025-04-27 21:39:51,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+2025-04-27 21:39:51,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+2025-04-27 21:39:51,497 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+2025-04-27 21:39:51,498 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+2025-04-27 21:39:51,646 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,648 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,648 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,648 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-04-27 21:39:51,650 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:51,691 [ERROR] Updater:1198 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2025-04-27 21:39:51,699 [INFO] Updater:1134 - Updater Version found : 6.14.1
+2025-04-27 21:39:51,710 [INFO] ApplicationProperties:184 - Using Application install path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-04-27 21:39:53,350 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2025-04-27 21:39:56,356 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-04-27 21:39:56,362 [ERROR] IntegrityCheckThread:130 - Cannot retrieve database content from updater: error 21
+2025-04-27 21:39:56,363 [INFO] ThirdParty:978 - Integrity check success = false
+2025-04-27 21:39:56,363 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2025-04-27 21:39:56,363 [INFO] IntegrityCheckThread:103 - End integrity checks thread
